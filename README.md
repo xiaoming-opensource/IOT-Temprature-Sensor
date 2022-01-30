@@ -2,7 +2,7 @@
 #采用超小体积BLE和WIFI双模SOC芯片
 #完全开源，包括硬件原理图，PCB，外壳，嵌入式源代码等所有
 
-![image](public/images/温度贴反面.png)
+![image](public/Images/温度贴反面.png)
 
 
 #功能特点如下：
@@ -44,9 +44,9 @@ One-click Sharing of Real Time Data to Unlimited No. of People
 
 #硬件设计
 KiCAD
-![image](public/images/温度贴PCB.png)
+![image](public/Images/温度贴PCB.png)
 #软件设计
 Keil uVision5
 #外壳设计
 Solidworks 2018
-![image](public/images/温度贴正面.png)
+![image](public/Images/温度贴正面.png)
