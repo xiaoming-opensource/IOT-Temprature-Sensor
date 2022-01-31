@@ -38,8 +38,6 @@ Alerts of Abnormal Temperatures
 实时数据一键分享多人
 One-click Sharing of Real Time Data to Unlimited No. of People
 
-
-
 #开发环境
 
 #硬件设计
@@ -49,8 +47,4 @@ KiCAD
 Keil uVision5
 #外壳设计
 Solidworks 2018
-<<<<<<< HEAD
 ![image](Images/温度贴正面.png)
-=======
-![image](Images/温度贴正面.png)
->>>>>>> f62b2abd77b349586b68a577180a32311868a77a
