@@ -1,7 +1,8 @@
 # 小明开源-物联网温度贴
 #采用超小体积BLE和WIFI双模SOC芯片
 #完全开源，包括硬件原理图，PCB，外壳，嵌入式源代码等所有
-#点击观看视频介绍>>
+
+##点击观看视频介绍>>
 [![Watch the video](https://i9.ytimg.com/vi/xRjZt0CQz3k/mq2.jpg?sqp=COy_3Y8G&rs=AOn4CLDVmi27AW05GaNaJGtqCj6CXry_cg)](https://youtu.be/xRjZt0CQz3k)
 
 #功能特点如下：
