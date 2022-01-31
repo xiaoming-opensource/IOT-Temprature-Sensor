@@ -4,6 +4,7 @@
 
 ![image](Images/温度贴反面.png)
 
+[![Watch the video](https://i9.ytimg.com/vi/xRjZt0CQz3k/mq2.jpg?sqp=COy_3Y8G&rs=AOn4CLDVmi27AW05GaNaJGtqCj6CXry_cg)](https://youtu.be/xRjZt0CQz3k)
 
 #功能特点如下：
 
