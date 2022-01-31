@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Medical_Ring-v5.2-rescue:+1V8-power #PWR0119
-U 1 1 5F307A12
-P 3950 1450
-F 0 "#PWR0119" H 3950 1300 50  0001 C CNN
-F 1 "+1V8" H 3965 1623 50  0000 C CNN
-F 2 "" H 3950 1450 50  0001 C CNN
-F 3 "" H 3950 1450 50  0001 C CNN
-	1    3950 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 4200 9600 4400
 Wire Wire Line
@@ -48,143 +37,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 4200 8600 4400
 Connection ~ 8600 4400
-Wire Wire Line
-	3950 1600 3950 1450
-Wire Wire Line
-	1650 2000 1650 1600
-Connection ~ 4500 2600
-$Comp
-L Medical_Ring-v5.2-rescue:GND-power #PWR0146
-U 1 1 612D4E69
-P 4500 2600
-F 0 "#PWR0146" H 4500 2350 50  0001 C CNN
-F 1 "GND" H 4505 2427 50  0000 C CNN
-F 2 "" H 4500 2600 50  0001 C CNN
-F 3 "" H 4500 2600 50  0001 C CNN
-	1    4500 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2600 4500 2600
-Connection ~ 3950 2600
-Wire Wire Line
-	3500 2600 3950 2600
-Wire Wire Line
-	3950 1600 4500 1600
-Connection ~ 3950 1600
-Wire Wire Line
-	3950 2100 3950 1600
-Wire Wire Line
-	4500 1600 4500 2100
-Wire Wire Line
-	3500 1600 3950 1600
-Wire Wire Line
-	3500 1600 3500 2100
-Wire Wire Line
-	2100 2000 2100 1600
-Wire Wire Line
-	3500 2400 3500 2600
-$Comp
-L Medical_Ring-v5.2-rescue:C-Device C37
-U 1 1 612D4E7A
-P 3500 2250
-F 0 "C37" H 3615 2296 50  0000 L CNN
-F 1 "10nF" H 3615 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 2100 50  0001 C CNN
-F 3 "~" H 3500 2250 50  0001 C CNN
-	1    3500 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2600 3950 2400
-Wire Wire Line
-	4500 2400 4500 2600
-$Comp
-L Medical_Ring-v5.2-rescue:C-Device C39
-U 1 1 612D4E82
-P 4500 2250
-F 0 "C39" H 4615 2296 50  0000 L CNN
-F 1 "0.1uF" H 4615 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4538 2100 50  0001 C CNN
-F 3 "~" H 4500 2250 50  0001 C CNN
-	1    4500 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Medical_Ring-v5.2-rescue:C-Device C38
-U 1 1 612D4E88
-P 3950 2250
-F 0 "C38" H 4065 2296 50  0000 L CNN
-F 1 "10uF" H 4065 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3988 2100 50  0001 C CNN
-F 3 "~" H 3950 2250 50  0001 C CNN
-	1    3950 2250
-	1    0    0    -1  
-$EndComp
-Connection ~ 1650 2550
-Wire Wire Line
-	2100 2550 1650 2550
-Wire Wire Line
-	2100 2300 2100 2550
-Wire Wire Line
-	1650 2550 1650 2300
-Wire Wire Line
-	2100 1600 1650 1600
-$Comp
-L Medical_Ring-v5.2-rescue:C-Device C35
-U 1 1 612D4E94
-P 1650 2150
-F 0 "C35" H 1765 2196 50  0000 L CNN
-F 1 "0.1uF" H 1765 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1688 2000 50  0001 C CNN
-F 3 "~" H 1650 2150 50  0001 C CNN
-	1    1650 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Medical_Ring-v5.2-rescue:C-Device C36
-U 1 1 612D4E9A
-P 2100 2150
-F 0 "C36" H 2215 2196 50  0000 L CNN
-F 1 "10uF" H 2215 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2138 2000 50  0001 C CNN
-F 3 "~" H 2100 2150 50  0001 C CNN
-	1    2100 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Medical_Ring-v5.2-rescue:GND-power #PWR0148
-U 1 1 612D4EA0
-P 1650 2550
-F 0 "#PWR0148" H 1650 2300 50  0001 C CNN
-F 1 "GND" H 1655 2377 50  0000 C CNN
-F 2 "" H 1650 2550 50  0001 C CNN
-F 3 "" H 1650 2550 50  0001 C CNN
-	1    1650 2550
-	1    0    0    -1  
-$EndComp
-Connection ~ 2100 1600
-Connection ~ 3500 2600
-Connection ~ 2100 2550
-$Comp
-L Medical_Ring-v5.2-rescue:SMG2033-DFN-Regulator_Linear U5
-U 1 1 612D4EB0
-P 2900 1450
-F 0 "U5" H 2875 1565 50  0000 C CNN
-F 1 "SGM2031-1.8YUDH4G/TR" H 2875 1474 50  0000 C CNN
-F 2 "Package_DFN_QFN:SMG2033-DFN" H 2900 1450 50  0001 C CNN
-F 3 "" H 2900 1450 50  0001 C CNN
-	1    2900 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 1600 3250 1600
-Connection ~ 3500 1600
-Wire Wire Line
-	3250 1850 3250 2600
-Connection ~ 3250 2600
-Wire Wire Line
-	3250 2600 3500 2600
 $Comp
 L jwatch-rescue:TP4507-SIM868 U?
 U 1 1 5F9F220C
@@ -409,33 +261,6 @@ F 3 "" H 2400 4550 50  0001 C CNN
 	1    2400 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 2600 2100 2550
-Wire Wire Line
-	2100 2600 3250 2600
-Wire Wire Line
-	2100 1600 2350 1600
-Wire Wire Line
-	2500 1850 2350 1850
-Wire Wire Line
-	2350 1850 2350 1600
-Connection ~ 2350 1600
-Wire Wire Line
-	2350 1600 2500 1600
-$Comp
-L Medical_Ring-v5.2-rescue:+3V3-power #PWR?
-U 1 1 61738971
-P 1650 1600
-AR Path="/61738971" Ref="#PWR?"  Part="1" 
-AR Path="/5EFAEE47/61738971" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 1650 1450 50  0001 C CNN
-F 1 "+3V3" H 1665 1773 50  0000 C CNN
-F 2 "" H 1650 1600 50  0001 C CNN
-F 3 "" H 1650 1600 50  0001 C CNN
-	1    1650 1600
-	1    0    0    -1  
-$EndComp
-Connection ~ 1650 1600
 $Comp
 L Medical_Ring-v5.2-rescue:+3V3-power #PWR?
 U 1 1 61776081

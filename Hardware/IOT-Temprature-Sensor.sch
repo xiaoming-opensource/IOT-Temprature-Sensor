@@ -161,17 +161,17 @@ Wire Wire Line
 Wire Wire Line
 	5050 4450 5500 4450
 Wire Wire Line
-	3400 5150 3400 5600
-Text Label 3400 5600 1    50   ~ 0
+	3700 5500 3700 5950
+Text Label 3700 5950 1    50   ~ 0
 FLASH_MISO
-Text Label 3300 5600 1    50   ~ 0
+Text Label 3600 5950 1    50   ~ 0
 FLASH_MOSI
-Text Label 3200 5600 1    50   ~ 0
+Text Label 3500 5950 1    50   ~ 0
 FLASH_SCLK
 Wire Wire Line
-	3300 5150 3300 5600
+	3600 5500 3600 5950
 Wire Wire Line
-	3200 5150 3200 5600
+	3500 5500 3500 5950
 Wire Wire Line
 	3000 3900 1500 3900
 $Comp
@@ -469,25 +469,25 @@ EN
 Text Label 5400 3950 2    50   ~ 0
 VDD_RF
 Wire Wire Line
-	3600 5150 3600 5600
-Text Label 3600 5450 3    50   ~ 0
+	3900 5500 3900 5950
+Text Label 3900 5800 3    50   ~ 0
 VDD
 $Comp
 L Medical_Ring-v5.2-rescue:GND-power #PWR0104
 U 1 1 5EC08210
-P 4550 5250
+P 4850 5600
 AR Path="/5EC08210" Ref="#PWR0104"  Part="1" 
 AR Path="/5EB63113/5EC08210" Ref="#PWR0159"  Part="1" 
 AR Path="/6180F478/5EC08210" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0104" H 4550 5000 50  0001 C CNN
-F 1 "GND" H 4555 5077 50  0000 C CNN
-F 2 "" H 4550 5250 50  0001 C CNN
-F 3 "" H 4550 5250 50  0001 C CNN
-	1    4550 5250
+F 0 "#PWR0104" H 4850 5350 50  0001 C CNN
+F 1 "GND" H 4855 5427 50  0000 C CNN
+F 2 "" H 4850 5600 50  0001 C CNN
+F 3 "" H 4850 5600 50  0001 C CNN
+	1    4850 5600
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5150 4550 5250
+	4850 5500 4850 5600
 Text Label 3800 2050 3    50   ~ 0
 VDD
 Text Label 4000 1500 3    50   ~ 0
@@ -575,7 +575,7 @@ Wire Wire Line
 	4100 1350 4200 1350
 Wire Wire Line
 	4200 1350 4200 1500
-Text Label 4300 5650 1    50   ~ 0
+Text Label 4600 6000 1    50   ~ 0
 GPIO22
 Wire Wire Line
 	3000 3700 2500 3700
@@ -685,12 +685,12 @@ GPIO22
 $Comp
 L Medical_Ring-v5.2-rescue:+3V3-power #PWR0122
 U 1 1 5EEC6474
-P 3800 5750
-F 0 "#PWR0122" H 3800 5600 50  0001 C CNN
-F 1 "+3V3" H 3815 5923 50  0000 C CNN
-F 2 "" H 3800 5750 50  0001 C CNN
-F 3 "" H 3800 5750 50  0001 C CNN
-	1    3800 5750
+P 4100 6100
+F 0 "#PWR0122" H 4100 5950 50  0001 C CNN
+F 1 "+3V3" H 4115 6273 50  0000 C CNN
+F 2 "" H 4100 6100 50  0001 C CNN
+F 3 "" H 4100 6100 50  0001 C CNN
+	1    4100 6100
 	-1   0    0    1   
 $EndComp
 Text Label 2400 4300 0    50   ~ 0
@@ -718,7 +718,7 @@ Wire Wire Line
 	2500 4000 3000 4000
 Text Label 2500 4000 0    50   ~ 0
 ALT_LED
-Text Label 4100 5650 1    50   ~ 0
+Text Label 4400 6000 1    50   ~ 0
 SOS_KEY
 $Comp
 L Medical_Ring-v5.2-rescue:R-Device R?
@@ -771,14 +771,14 @@ F 3 "~" H 10050 5500 50  0001 C CNN
 	1    10050 5450
 	0    -1   -1   0   
 $EndComp
-Text Label 4200 5650 1    50   ~ 0
+Text Label 4500 6000 1    50   ~ 0
 AS_EN
 Wire Wire Line
 	8850 3600 8350 3600
 Text Label 8350 3600 0    50   ~ 0
 AS_EN
 Wire Wire Line
-	4200 5150 4200 5650
+	4500 5500 4500 6000
 Wire Wire Line
 	8850 4350 8350 4350
 Text Label 8350 4350 0    50   ~ 0
@@ -813,7 +813,7 @@ Wire Wire Line
 	8350 2150 8850 2150
 Text Label 8350 2150 0    50   ~ 0
 ALT_LED_RED
-Text Label 3900 5650 1    50   ~ 0
+Text Label 4200 6000 1    50   ~ 0
 ALT_LED_RED
 $Comp
 L Medical_Ring-v5.2-rescue:LED_Dual_AACC-Device D1
@@ -872,7 +872,7 @@ F 3 "" H 1800 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4300 5150 4300 5650
+	4600 5500 4600 6000
 Wire Wire Line
 	3000 3600 2500 3600
 Wire Wire Line
@@ -1022,7 +1022,7 @@ Wire Wire Line
 	8350 3900 8850 3900
 Wire Wire Line
 	8350 4050 8850 4050
-Text Label 3700 5650 1    50   ~ 0
+Text Label 4000 6000 1    50   ~ 0
 GPIO17
 $Comp
 L Medical_Ring-v5.2-rescue:GND-power #PWR0144
@@ -1048,7 +1048,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2050 3700 2050
 Wire Wire Line
-	4100 5150 4100 5650
+	4400 5500 4400 6000
 Wire Wire Line
 	1800 6050 2150 6050
 $Comp
@@ -1263,33 +1263,33 @@ Wire Wire Line
 $Comp
 L Medical_Ring-v5.2-rescue:R-Device R?
 U 1 1 60763174
-P 4700 5650
+P 5000 6000
 AR Path="/5BD78552/60763174" Ref="R?"  Part="1" 
 AR Path="/60763174" Ref="R22"  Part="1" 
 AR Path="/5EB63113/60763174" Ref="R?"  Part="1" 
 AR Path="/6180F478/60763174" Ref="R?"  Part="1" 
-F 0 "R22" V 4650 5450 50  0000 C CNN
-F 1 "10K" V 4650 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4630 5650 50  0001 C CNN
-F 3 "~" H 4700 5650 50  0001 C CNN
-	1    4700 5650
+F 0 "R22" V 4950 5800 50  0000 C CNN
+F 1 "10K" V 4950 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4930 6000 50  0001 C CNN
+F 3 "~" H 5000 6000 50  0001 C CNN
+	1    5000 6000
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4850 5650 5000 5650
+	5150 6000 5300 6000
 $Comp
 L Medical_Ring-v5.2-rescue:+3V3-power #PWR0157
 U 1 1 6076317B
-P 5000 5650
-F 0 "#PWR0157" H 5000 5500 50  0001 C CNN
-F 1 "+3V3" H 5015 5823 50  0000 C CNN
-F 2 "" H 5000 5650 50  0001 C CNN
-F 3 "" H 5000 5650 50  0001 C CNN
-	1    5000 5650
+P 5300 6000
+F 0 "#PWR0157" H 5300 5850 50  0001 C CNN
+F 1 "+3V3" H 5315 6173 50  0000 C CNN
+F 2 "" H 5300 6000 50  0001 C CNN
+F 3 "" H 5300 6000 50  0001 C CNN
+	1    5300 6000
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4550 5650 4300 5650
+	4850 6000 4600 6000
 $Comp
 L Medical_Ring-v5.2-rescue:Conn_01x04_Male-Connector J1
 U 1 1 60D4C6CE
@@ -1405,7 +1405,7 @@ Wire Wire Line
 	3000 3800 2500 3800
 Wire Wire Line
 	3000 4100 2500 4100
-Text Label 4000 5650 1    50   ~ 0
+Text Label 4300 6000 1    50   ~ 0
 GPIO19
 $Sheet
 S 8850 3150 1100 1350
@@ -1462,9 +1462,9 @@ Wire Wire Line
 	1800 2250 2050 2250
 Connection ~ 1800 2250
 Wire Wire Line
-	3900 5150 3900 5650
+	4200 5500 4200 6000
 Wire Wire Line
-	4000 5150 4000 5650
+	4300 5500 4300 6000
 $Comp
 L Medical_Ring-v5.2-rescue:SW_1003B-Switch SW1
 U 1 1 612A30F9
@@ -1541,26 +1541,26 @@ IFuseNST1001,MOUNT-R11
 $Comp
 L Medical_Ring-v5.2-rescue:R-Device R?
 U 1 1 611E2C38
-P 3250 5750
+P 3550 6100
 AR Path="/5BD78552/611E2C38" Ref="R?"  Part="1" 
 AR Path="/611E2C38" Ref="R12"  Part="1" 
 AR Path="/5EB63113/611E2C38" Ref="R?"  Part="1" 
 AR Path="/6180F478/611E2C38" Ref="R?"  Part="1" 
-F 0 "R12" V 3200 5550 50  0000 C CNN
-F 1 "10K" V 3200 5900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3180 5750 50  0001 C CNN
-F 3 "~" H 3250 5750 50  0001 C CNN
-	1    3250 5750
+F 0 "R12" V 3500 5900 50  0000 C CNN
+F 1 "10K" V 3500 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3480 6100 50  0001 C CNN
+F 3 "~" H 3550 6100 50  0001 C CNN
+	1    3550 6100
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3100 5750 2950 5750
+	3400 6100 3250 6100
 Wire Wire Line
-	3800 5150 3800 5750
+	4100 5500 4100 6100
 Wire Wire Line
-	3700 5150 3700 5750
+	4000 5500 4000 6100
 Wire Wire Line
-	3400 5750 3700 5750
+	3700 6100 4000 6100
 Text Label 10450 3350 2    50   ~ 0
 GPIO19
 Wire Wire Line
@@ -1596,73 +1596,19 @@ Connection ~ 2150 7150
 $Comp
 L Medical_Ring-v5.2-rescue:+3V3-power #PWR0102
 U 1 1 61795CF2
-P 2950 5750
+P 3250 6100
 AR Path="/61795CF2" Ref="#PWR0102"  Part="1" 
 AR Path="/5EFAEE47/61795CF2" Ref="#PWR?"  Part="1" 
 AR Path="/6180F478/61795CF2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 2950 5600 50  0001 C CNN
-F 1 "+3V3" H 2965 5923 50  0000 C CNN
-F 2 "" H 2950 5750 50  0001 C CNN
-F 3 "" H 2950 5750 50  0001 C CNN
-	1    2950 5750
+F 0 "#PWR0102" H 3250 5950 50  0001 C CNN
+F 1 "+3V3" H 3265 6273 50  0000 C CNN
+F 2 "" H 3250 6100 50  0001 C CNN
+F 3 "" H 3250 6100 50  0001 C CNN
+	1    3250 6100
 	0    -1   -1   0   
 $EndComp
 Connection ~ 5000 6750
 Connection ~ 5000 7350
-Text Label 4150 6500 2    50   ~ 0
-GPIO6
-Wire Wire Line
-	3650 6900 3650 7000
-Text Label 4150 7000 2    50   ~ 0
-GPIO7
-Wire Wire Line
-	3650 7000 4150 7000
-Wire Wire Line
-	3650 6500 4150 6500
-Connection ~ 3650 7000
-Wire Wire Line
-	3450 7000 3650 7000
-Wire Wire Line
-	3650 6600 3650 6500
-$Comp
-L Medical_Ring-v5.2-rescue:R-Device R?
-U 1 1 611B3953
-P 3650 6750
-AR Path="/5BD78552/611B3953" Ref="R?"  Part="1" 
-AR Path="/611B3953" Ref="R8"  Part="1" 
-AR Path="/5EB63113/611B3953" Ref="R?"  Part="1" 
-AR Path="/6180F478/611B3953" Ref="R?"  Part="1" 
-F 0 "R8" V 3600 6550 50  0000 C CNN
-F 1 "47K" V 3600 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3580 6750 50  0001 C CNN
-F 3 "~" H 3650 6750 50  0001 C CNN
-	1    3650 6750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 7300 3150 7400
-$Comp
-L Medical_Ring-v5.2-rescue:GND-power #PWR0120
-U 1 1 61195C78
-P 3150 7400
-F 0 "#PWR0120" H 3150 7150 50  0001 C CNN
-F 1 "GND" H 3155 7227 50  0000 C CNN
-F 2 "" H 3150 7400 50  0001 C CNN
-F 3 "" H 3150 7400 50  0001 C CNN
-	1    3150 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Medical_Ring-v5.2-rescue:NST1001-Sensor_Temperature IC3
-U 1 1 611955C2
-P 3150 7000
-F 0 "IC3" H 3207 7367 50  0000 C CNN
-F 1 "NST1001" H 3207 7276 50  0000 C CNN
-F 2 "Sensor_Voltage:NST1001NEW" H 2150 6750 50  0001 C CNN
-F 3 "http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf" H 3000 7250 50  0001 C CNN
-	1    3150 7000
-	1    0    0    -1  
-$EndComp
 $Comp
 L jwatch-rescue:OPL1200-MCU_Module U1
 U 1 1 5EB48FD5
