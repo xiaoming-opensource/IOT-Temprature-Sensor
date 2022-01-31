@@ -49,8 +49,4 @@ KiCAD
 Keil uVision5
 #外壳设计
 Solidworks 2018
-<<<<<<< HEAD
 ![image](Images/温度贴正面.png)
-=======
-![image](Images/温度贴正面.png)
->>>>>>> f62b2abd77b349586b68a577180a32311868a77a
