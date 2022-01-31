@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L jwatch-rescue:OPL1200-MCU_Module U1
-U 1 1 5EB48FD5
-P 4750 4700
-AR Path="/5EB48FD5" Ref="U1"  Part="1" 
-AR Path="/5EB63113/5EB48FD5" Ref="U1"  Part="1" 
-AR Path="/6180F478/5EB48FD5" Ref="U?"  Part="1" 
-F 0 "U1" H 4250 5100 50  0000 L CNN
-F 1 "OPL1200" H 4050 5200 50  0000 L CNN
-F 2 "Package_DFN_QFN:UQFN-48-1EP_6x6mm_P0.4mm_EP4.45x4.45mm" H 6500 5550 50  0001 C CNN
-F 3 "" H 6500 5550 50  0001 C CNN
-	1    4750 4700
-	-1   0    0    1   
-$EndComp
-$Comp
 L Medical_Ring-v5.2-rescue:XRCGB32M000F2P00R0-XRCGB32M000F2P00R0 Y4
 U 1 1 5EB56890
 P 7200 5350
@@ -1646,7 +1632,7 @@ AR Path="/5BD78552/611B3953" Ref="R?"  Part="1"
 AR Path="/611B3953" Ref="R8"  Part="1" 
 AR Path="/5EB63113/611B3953" Ref="R?"  Part="1" 
 AR Path="/6180F478/611B3953" Ref="R?"  Part="1" 
-F 0 "R?" V 3600 6550 50  0000 C CNN
+F 0 "R8" V 3600 6550 50  0000 C CNN
 F 1 "47K" V 3600 6900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3580 6750 50  0001 C CNN
 F 3 "~" H 3650 6750 50  0001 C CNN
@@ -1656,10 +1642,10 @@ $EndComp
 Wire Wire Line
 	3150 7300 3150 7400
 $Comp
-L Medical_Ring-v5.2-rescue:GND-power #PWR?
+L Medical_Ring-v5.2-rescue:GND-power #PWR0120
 U 1 1 61195C78
 P 3150 7400
-F 0 "#PWR?" H 3150 7150 50  0001 C CNN
+F 0 "#PWR0120" H 3150 7150 50  0001 C CNN
 F 1 "GND" H 3155 7227 50  0000 C CNN
 F 2 "" H 3150 7400 50  0001 C CNN
 F 3 "" H 3150 7400 50  0001 C CNN
@@ -1667,14 +1653,28 @@ F 3 "" H 3150 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Medical_Ring-v5.2-rescue:NST1001-Sensor_Temperature IC?
+L Medical_Ring-v5.2-rescue:NST1001-Sensor_Temperature IC3
 U 1 1 611955C2
 P 3150 7000
-F 0 "IC?" H 3207 7367 50  0000 C CNN
+F 0 "IC3" H 3207 7367 50  0000 C CNN
 F 1 "NST1001" H 3207 7276 50  0000 C CNN
 F 2 "Sensor_Voltage:NST1001NEW" H 2150 6750 50  0001 C CNN
 F 3 "http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf" H 3000 7250 50  0001 C CNN
 	1    3150 7000
 	1    0    0    -1  
+$EndComp
+$Comp
+L jwatch-rescue:OPL1200-MCU_Module U1
+U 1 1 5EB48FD5
+P 4750 4700
+AR Path="/5EB48FD5" Ref="U1"  Part="1" 
+AR Path="/5EB63113/5EB48FD5" Ref="U1"  Part="1" 
+AR Path="/6180F478/5EB48FD5" Ref="U?"  Part="1" 
+F 0 "U1" H 4250 5100 50  0000 L CNN
+F 1 "OPL1200" H 4050 5200 50  0000 L CNN
+F 2 "Package_DFN_QFN:UQFN-48-1EP_6x6mm_P0.4mm_EP4.45x4.45mm" H 6500 5550 50  0001 C CNN
+F 3 "" H 6500 5550 50  0001 C CNN
+	1    4750 4700
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
