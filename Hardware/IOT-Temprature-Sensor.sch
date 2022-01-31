@@ -1515,31 +1515,6 @@ Wire Wire Line
 Connection ~ 5000 7450
 $Comp
 L Medical_Ring-v5.2-rescue:R-Device R?
-U 1 1 6127EAD8
-P 10050 6050
-AR Path="/5BD78552/6127EAD8" Ref="R?"  Part="1" 
-AR Path="/6127EAD8" Ref="R11"  Part="1" 
-AR Path="/5EB63113/6127EAD8" Ref="R?"  Part="1" 
-AR Path="/6180F478/6127EAD8" Ref="R?"  Part="1" 
-F 0 "R11" V 10000 5850 50  0000 C CNN
-F 1 "30K" V 10000 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 6050 50  0001 C CNN
-F 3 "~" H 10050 6050 50  0001 C CNN
-	1    10050 6050
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	9750 5450 9750 6050
-Wire Wire Line
-	9750 6050 9900 6050
-Wire Wire Line
-	10200 6050 10350 6050
-Wire Wire Line
-	10350 6050 10350 5450
-Text Label 9700 6300 0    50   ~ 0
-IFuseNST1001,MOUNT-R11
-$Comp
-L Medical_Ring-v5.2-rescue:R-Device R?
 U 1 1 611E2C38
 P 3550 6100
 AR Path="/5BD78552/611E2C38" Ref="R?"  Part="1" 
